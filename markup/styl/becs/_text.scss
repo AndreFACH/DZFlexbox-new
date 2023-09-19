@@ -1,0 +1,43 @@
+.text {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FF9C7D;
+    padding-bottom: 40px;
+}
+
+.text h1 {
+    font-family: Graphik LC TT, Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 75px;
+}
+
+.text p {
+     font-family: Graphik LCG, Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 30px;
+}
+.btn--bleck {
+    position: relative;
+    font-size: 17px;
+    line-height: 60px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 0 20px;
+}
+
+@media (max-width: 767px) {
+    .text h1 {
+        font-size: 33px;
+        text-align: center;     
+    }
+    .text p {
+        font-size: 16px;
+    }
+
+}

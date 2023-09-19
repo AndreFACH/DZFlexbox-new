@@ -1,0 +1,59 @@
+@import './becs/normal';
+@import './becs/header';
+@import './becs/button';
+@import './becs/block2';
+@import './becs/row';
+@import './becs/card_visual';
+@import './becs/list';
+@import './becs/blockquote';
+@import './becs/blos';
+@import './becs/text';
+@import './becs/box';
+@import './becs/menu';
+@import './becs/footer';
+@import './becs/h';
+
+
+body {
+    font-family: Graphik LCG, Arial, Helvetica, sans-serif;
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;   
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    padding-right: 144px;
+}
+
+.cadd_list1 {
+    background: #FFF8E4;
+    text-align: center;
+    padding: 50px;
+} 
+@media (max-width: 767px)  {
+    body {
+        width: 100%;
+        margin: 0 auto;   
+    }
+    
+.cadd_list1 {
+    width: 100%;
+    background: #FFF8E4;
+    text-align: center;
+} 
+}
+
+
+

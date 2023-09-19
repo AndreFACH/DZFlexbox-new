@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;    
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;    
+}
+
+.menu a {
+    display: block;
+    margin-top: 15px;
+    font-family: Graphik LCG, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+    border-bottom: 1px solid blue;
+}
+
+.footer_block a {
+    font-family: Graphik LCG, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer_block ul {
+    list-style: none; 
+    margin-left: -30px;
+}
+
+.footer_end {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-size: 12px;
+    font-weight: 400;
+}

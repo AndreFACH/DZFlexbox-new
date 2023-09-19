@@ -1,0 +1,39 @@
+.button {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.buttonq {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.buttonq .btn--gryn {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 700;
+    padding: 12px 32px;
+    text-decoration: none;
+}
+
+.btn--gryn {
+    border: 1px solid #FF6336;
+    color: white;
+    background: #FF6336;
+    margin-left: 20px;
+}

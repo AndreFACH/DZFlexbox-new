@@ -1,0 +1,37 @@
+.blockquote {
+    width: 100%;
+    display: flex;
+    background: #C9E8F2;
+    justify-content: space-around;
+}
+
+.blockquote_left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.blockquote_left img {
+    width: 115px;
+}
+
+.blockquote_rait img {
+    max-width: 100%;
+    width: 310px;
+    height: 310px;
+}
+
+@media (max-width: 767px) {
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .box ul {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: space-between;
+    }
+}
