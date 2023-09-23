@@ -779,10 +779,24 @@ template {
   text-decoration: none;
 }
 
+.menu_nav {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  .menu a {
+    font-size: 10px;
+    line-height: 1px;
+  }
+  .menu_nav {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
 .footer {
   display: flex;
   align-items: flex-start;
-  padding-top: 20px;
   border-bottom: 1px solid blue;
 }
 
@@ -795,9 +809,14 @@ template {
   text-decoration: none;
 }
 
+.footer_block {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .footer_block ul {
   list-style: none;
-  margin-left: -30px;
 }
 
 .footer_end {
@@ -808,6 +827,12 @@ template {
   font-weight: 400;
 }
 
+@media (max-width: 767px) {
+  .footer_block {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 h1 {
   font-family: Graphik LCG, Arial, Helvetica, sans-serif;
   font-size: 50px;

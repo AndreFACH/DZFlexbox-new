@@ -20,3 +20,21 @@
     line-height: 15px;
     text-decoration: none;
 }
+
+.menu_nav {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+    .menu {
+        & a {
+            font-size: 10px;
+            line-height: 1px;
+        }
+    }
+    .menu_nav {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

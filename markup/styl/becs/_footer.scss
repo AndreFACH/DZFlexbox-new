@@ -1,9 +1,9 @@
 .footer {
     display: flex;
     align-items: flex-start;
-    padding-top: 20px;
     border-bottom: 1px solid blue;
 }
+
 
 .footer_block a {
     font-family: Graphik LCG, Arial, Helvetica, sans-serif;
@@ -13,10 +13,14 @@
     color: black;
     text-decoration: none;
 }
+.footer_block {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 .footer_block ul {
     list-style: none; 
-    margin-left: -30px;
 }
 
 .footer_end {
@@ -25,4 +29,11 @@
     padding-top: 50px;
     font-size: 12px;
     font-weight: 400;
+}
+
+@media (max-width: 767px) {
+    .footer_block {
+        display: flex;
+        justify-content: space-between;
+    }
 }
